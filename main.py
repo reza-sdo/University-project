@@ -22,7 +22,7 @@ def oddnums(OOP):
     # print(oddNumList)
     return oddNumList
 
-#------------------C-------------
+#------------------C------------
 
 
 userInput = int(input("enter your number:"))
