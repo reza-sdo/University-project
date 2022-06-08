@@ -54,11 +54,11 @@ else:
     if (userInput % 2) == 1:
         print("Please select an even number!")
     else:
-        OOP = FactorialRerouting(userInput).Factorial()  #------A
-        odd=oddnums(OOP)                                 #------B
-        sumNum=sumOfOdd (odd)                            #------C
-        even=evenNums(OOP)                               #------D
-        even.evens()                                     #------D
+        OOP = FactorialRerouting(userInput).Factorial()  #-------A
+        odd=oddnums(OOP)                                 #-------B
+        sumNum=sumOfOdd (odd)                            #-------C
+        even=evenNums(OOP)                               #-------D
+        even.evens()                                     #-------D
 
 
 
