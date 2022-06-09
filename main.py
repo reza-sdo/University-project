@@ -1,5 +1,5 @@
-# https://github.com/reza-sdo/University-project.git
-# --------------------A-------------------
+# # https://github.com/reza-sdo/University-project.git
+# # --------------------A-------------------
 class FactorialRerouting:
     def __init__(self, userInput):
         self.userInput = userInput
@@ -12,8 +12,7 @@ class FactorialRerouting:
         return result
 
 
-
-# --------------B------------
+# # --------------B------------
 def oddnums(OOP):
     oddNumList = []
     for i in range(OOP):
@@ -22,26 +21,30 @@ def oddnums(OOP):
     print(oddNumList)
     return oddNumList
 
-#------------------C------------
-def sumOfOdd (odd):
+# # ------------------C------------
+
+
+def sumOfOdd(odd):
     sumNums = 0
     for i in odd:
-        sumNums+=i
+        sumNums += i
     print(sumNums)
     return sumNums
-#-------------------D-------------
+# # -------------------D-------------
+
+
 class evenNums():
-    def __init__(self , OOP) :
+    def __init__(self, OOP):
         self.OOP = OOP
 
     def evens(self):
         evenNumbers = []
         evenSum = 0
-        
+
         for i in range(self.OOP+1):
-            if i%2==0:
+            if i % 2 == 0:
                 evenNumbers.append(i)
-                evenSum +=i
+                evenSum += i
         print(evenNumbers)
         print(evenSum)
 
@@ -54,14 +57,46 @@ else:
     if (userInput % 2) == 1:
         print("Please select an even number!")
     else:
-        OOP = FactorialRerouting(userInput).Factorial()  #-------A
-        odd=oddnums(OOP)                                 #-------B
-        sumNum=sumOfOdd (odd)                            #-------C
-        even=evenNums(OOP)                               #-------D
-        even.evens()                                     #-------D
+        OOP = FactorialRerouting(userInput).Factorial()  # -------A
+        odd = oddnums(OOP)  # -------B
+        sumNum = sumOfOdd(odd)  # -------C
+        even = evenNums(OOP)  # -------D
+        even.evens()  # -------D
 
 
+# -----------------------------D-----------------------------
+# --------------D1-----------
+def d1 ():
+    for i in range (1 , 4):
+        print(f'A 1 B {i}')
+
+d1()
 
 
+#--------------D2------------
+
+def d2 ():
+    x = 0
+    for i in range (1,4):
+        print(f"A{i}B{x+i}")
+        x=i
+d2()
 
 
+# -------------D3------------
+
+x = {}
+i=1
+while i in range(1,7):
+    x[i]= i + 1
+    i+=2
+print(x)
+
+# ------------D4------------
+i = 0
+x = {}
+while i in range (0,3):
+    for b in range(97,100):
+        x[i]= chr(b)
+        i+=1
+print(x)
