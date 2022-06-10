@@ -100,3 +100,5 @@ while i in range (0,3):
         x[i]= chr(b)
         i+=1
 print(x)
+
+c = input("number:")
